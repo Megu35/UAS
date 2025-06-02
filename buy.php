@@ -20,6 +20,9 @@
     .form-check-input {
       margin-right: 10px;
     }
+    footer{
+      display: flex;
+    }
   </style>
 </head>
 <body>
@@ -168,6 +171,13 @@
   </div>
 </div>
 <br>
+
+<footer class="bg-dark text-white text-center py-4 mt-auto">
+    <div class="container">
+      <p class="mb-1">&copy; Fathan Athillah</p>
+    </div>
+  </footer>
+
 <script>
   const items = document.querySelectorAll('.menu-item');
   const totalEl = document.getElementById('totalHarga');
